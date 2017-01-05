@@ -23,6 +23,10 @@ permalink:          /:year/:month/:day/:title/
 # Markdown
 markdown:           kramdown
 
+kramdown:
+    input:  GFM
+    syntax_highlighter:  rouge
+
 # Navigation
 nav:
   - name:           "About"
